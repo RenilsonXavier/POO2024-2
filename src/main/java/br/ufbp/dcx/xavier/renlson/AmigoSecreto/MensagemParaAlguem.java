@@ -1,3 +1,5 @@
+package br.ufbp.dcx.xavier.renlson.AmigoSecreto;
+
 public class MensagemParaAlguem extends Mensagem {
 
     private String emailDestinatario;
@@ -18,9 +20,9 @@ public class MensagemParaAlguem extends Mensagem {
     public String getTextoCompletoAExibir(){
         String textoCompleto;
         if (this.ehAnonima()) {
-            textoCompleto = "Mensagem para " + this.emailDestinatario + "\n" + this.getTexto() + "\n de anonima";
+            textoCompleto = "br.ufbp.dcx.xavier.renlson.AmigoSecreto.Mensagem para " + this.emailDestinatario + "\n" + this.getTexto() + "\n de anonima";
         } else {
-            textoCompleto = "Mensagem para "+ this.emailDestinatario + "\n"+ this.getTexto() +"\n de "+ this.getEmailRemetente();
+            textoCompleto = "br.ufbp.dcx.xavier.renlson.AmigoSecreto.Mensagem para "+ this.emailDestinatario + "\n"+ this.getTexto() +"\n de "+ this.getEmailRemetente();
         }
         return textoCompleto;
     }

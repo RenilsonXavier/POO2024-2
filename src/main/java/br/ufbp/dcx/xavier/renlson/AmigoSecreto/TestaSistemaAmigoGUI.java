@@ -1,3 +1,5 @@
+package br.ufbp.dcx.xavier.renlson.AmigoSecreto;
+
 import java.util.Scanner;
 
 public class TestaSistemaAmigoGUI {

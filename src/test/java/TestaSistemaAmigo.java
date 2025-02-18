@@ -1,3 +1,7 @@
+import br.ufbp.dcx.xavier.renlson.AmigoSecreto.AmigoInexistenteException;
+import br.ufbp.dcx.xavier.renlson.AmigoSecreto.AmigoNaoSorteadoException;
+import br.ufbp.dcx.xavier.renlson.AmigoSecreto.Mensagem;
+import br.ufbp.dcx.xavier.renlson.AmigoSecreto.SistemaAmigo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

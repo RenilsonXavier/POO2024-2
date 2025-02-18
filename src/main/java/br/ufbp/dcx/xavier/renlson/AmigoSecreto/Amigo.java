@@ -1,3 +1,5 @@
+package br.ufbp.dcx.xavier.renlson.AmigoSecreto;
+
 public class Amigo {
     private String nome;
     private String email;
@@ -22,7 +24,7 @@ public class Amigo {
     public String getEmailAmigoSorteado(){
         return this.emailAmigoSorteado;
     }
-    public void setEmailAmigoSorteado(String emailAmigoSorteado){
+    public void setAmigoSorteado(String emailAmigoSorteado){
         this.emailAmigoSorteado = emailAmigoSorteado;
     }
 }
