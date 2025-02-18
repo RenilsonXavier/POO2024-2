@@ -22,7 +22,7 @@ public class Amigo {
     public String getEmailAmigoSorteado(){
         return this.emailAmigoSorteado;
     }
-    public void setEmailAmigoSorteado(String emailAmigoSorteado){
+    public void setAmigoSorteado(String emailAmigoSorteado){
         this.emailAmigoSorteado = emailAmigoSorteado;
     }
 }

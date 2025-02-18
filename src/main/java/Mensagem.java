@@ -1,4 +1,4 @@
-public class Mensagem {
+public abstract class Mensagem {
     private String texto;
     private String emailRemetente;
     private boolean anonima;
@@ -11,22 +11,17 @@ public class Mensagem {
     public String getTexto(){
         return this.texto;
     }
-
     public void setTexto(String texto) {
         this.texto = texto;
     }
-    public String getTextoCompletoAExibir(){
-        return this.texto;
-    }
+    public abstract String getTextoCompletoAExibir();
 
     public String getEmailRemetente() {
         return this.emailRemetente;
     }
-
     public void setEmailRemetente(String emailRemetente) {
         this.emailRemetente = emailRemetente;
     }
-
     public boolean ehAnonima() {
         return this.anonima = anonima;
     }
